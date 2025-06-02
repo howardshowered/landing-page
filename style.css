@@ -7,6 +7,8 @@ body {
 
 .dark-bg {
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
 }
 
 .header {
@@ -18,6 +20,7 @@ body {
 .nav-bar{
     display: flex;
     align-items: center;
+    margin-bottom: 20px;
 }
 .logo {
     font-size: 24px;
@@ -38,8 +41,8 @@ body {
 }
 
 .main-container {
-
-    display: flex;    
+    display: flex;   
+    margin-bottom: 50px;
 }
 
 .sub-container {
@@ -57,7 +60,7 @@ body {
 }
 button {
     color:white;
-    background-color: royalblue;
+    background-color: #3882F6;
     max-width: 80px;
     border-radius: 10px;
     padding: 10px;
@@ -74,4 +77,58 @@ img
     max-width: 400px;
     padding: 25px 0px;
 
+}
+
+.white-bg 
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-information 
+{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+
+}
+
+.card 
+{
+    display: flex;
+    flex-direction: column;
+    max-width: 150px;
+}
+
+.card-img 
+{
+    max-width: 150px;
+   
+}
+
+.information-header-text
+{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.grey-bg
+{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+
+}
+
+.quote p
+{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
