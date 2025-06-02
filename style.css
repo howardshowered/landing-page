@@ -132,3 +132,30 @@ img
     font-style: italic;
     color: #1F2937;
 }
+
+.signature
+{
+    margin-left: 400px;
+}
+
+.white-bg2
+{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.blue-card
+{
+    background-color:#3882F6;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 250px;
+    gap: 120px;
+
+}
+
